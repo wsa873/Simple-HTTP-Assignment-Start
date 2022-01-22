@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "Simple HTTP HW Seth Arnold",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsa873/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "wsa873",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/wsa873/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/wsa873/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
